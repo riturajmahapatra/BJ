@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: green;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 20px;
+
+}
+
+body{
+    background-color: greenyellow;
+    font-size: 1.5rem;
+}
+
+/* start button  */
+
+#start-btn, #ncard-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bolder;
+    width: 200px;
+    border-radius: 12px;
+    color: greenyellow;
+    background-color: green;
+    margin-block: 2px;
+}
